@@ -84,7 +84,7 @@ I enjoy working at the intersection of engineering and design — where performa
 <td width="50%">
 
 ### StreamFlow
-Real-time collaborative document editor supporting 50+ concurrent users with conflict-free resolution.
+A collaborative document editor built with real-time sync using WebSockets.
 
 `React` `Node.js` `WebSocket` `PostgreSQL`
 
@@ -92,9 +92,9 @@ Real-time collaborative document editor supporting 50+ concurrent users with con
 <td width="50%">
 
 ### TaskForge
-AI-powered project management dashboard with automated sprint planning and predictive analytics.
+A project management dashboard with sprint planning and task tracking.
 
-`Next.js` `Python` `TensorFlow` `MongoDB`
+`Next.js` `Python` `PostgreSQL`
 
 </td>
 </tr>
@@ -102,15 +102,15 @@ AI-powered project management dashboard with automated sprint planning and predi
 <td width="50%">
 
 ### PixelCraft
-Browser-based image optimization tool that reduces file sizes by up to 80% without visible quality loss.
+A web-based image optimization tool built to reduce file size while maintaining quality.
 
-`JavaScript` `WebAssembly` `Redis` `AWS`
+`JavaScript` `WebAssembly` `AWS`
 
 </td>
 <td width="50%">
 
 ### EchoReads
-Social reading platform combining curated book recommendations with community discussion threads.
+A social reading platform for sharing book recommendations and discussion threads.
 
 `React` `GraphQL` `Node.js` `PostgreSQL`
 
@@ -141,7 +141,7 @@ Social reading platform combining curated book recommendations with community di
 | Dark / Light Mode | CSS custom properties + `data-theme` toggle with localStorage |
 | Texture | SVG noise overlay for tactile depth |
 | Micro-interactions | Hover effects on nav, tags, cards, social icons |
-| Scroll Reveals | IntersectionObserver with staggered timing |
+| Scroll Reveals | IntersectionObserver |
 | Typography | Space Grotesk headings, Inter body, fluid `clamp()` sizing |
 | Responsive | 3 breakpoints with mobile hamburger menu |
 | Accessibility | ARIA labels, semantic HTML, focus states |
@@ -153,13 +153,6 @@ git clone https://github.com/OdinFenrir/OdinFenrir.github.io.git
 cd OdinFenrir.github.io
 open index.html
 ```
-
-### Deploy on GitHub Pages
-
-1. Go to **Settings** → **Pages**
-2. Set source to **Deploy from a branch**
-3. Select **main** branch, **/ (root)** folder
-4. Save — site will be live at `https://OdinFenrir.github.io`
 
 ---
 

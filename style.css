@@ -505,8 +505,6 @@ input, textarea {
 }
 
 .about-image {
-  position: sticky;
-  top: 120px;
 }
 
 .avatar-placeholder {

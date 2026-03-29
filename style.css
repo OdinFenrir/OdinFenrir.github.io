@@ -1,5 +1,5 @@
 /* ============================================================
-   ALEX CHEN — PORTFOLIO
+   LEANDRO DOMINGUES — PORTFOLIO
    A premium, production-ready personal portfolio
    ============================================================ */
 
@@ -83,8 +83,8 @@ body::before {
   background-repeat: repeat;
   background-size: 256px 256px;
   pointer-events: none;
-  z-index: 9999;
-  opacity: 0.5;
+  z-index: 0;
+  opacity: 0.12;
 }
 
 img {
@@ -206,9 +206,9 @@ input, textarea {
 }
 
 .nav.scrolled {
-  background: color-mix(in srgb, var(--bg) 85%, transparent);
-  backdrop-filter: blur(16px) saturate(1.5);
-  -webkit-backdrop-filter: blur(16px) saturate(1.5);
+  background: rgba(10, 10, 11, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
 }
 
@@ -439,7 +439,7 @@ input, textarea {
   font-size: 14px;
   font-weight: 600;
   border-radius: 100px;
-  transition: all 0.3s var(--ease);
+  transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
   cursor: pointer;
   border: none;
   letter-spacing: 0.01em;
@@ -594,7 +594,7 @@ input, textarea {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 100px;
-  transition: all 0.25s var(--ease);
+  transition: color 0.25s var(--ease), border-color 0.25s var(--ease), background-color 0.25s var(--ease);
   cursor: default;
 }
 
@@ -602,7 +602,6 @@ input, textarea {
   color: var(--accent);
   border-color: var(--accent);
   background: var(--accent-glow);
-  transform: translateY(-2px);
 }
 
 /* ==================== PROJECTS ==================== */
@@ -795,6 +794,14 @@ input, textarea {
   box-shadow: 0 0 0 3px var(--accent-glow);
 }
 
+.form-note {
+  font-size: 12px;
+  color: var(--text-secondary);
+  opacity: 0.6;
+  text-align: center;
+  margin-top: -8px;
+}
+
 .contact-side {
   display: flex;
   flex-direction: column;
@@ -844,7 +851,7 @@ input, textarea {
   border-radius: 50%;
   border: 1px solid var(--border);
   color: var(--text-secondary);
-  transition: all 0.25s var(--ease);
+  transition: color 0.25s var(--ease), border-color 0.25s var(--ease), background-color 0.25s var(--ease), transform 0.25s var(--ease);
 }
 
 .social-link:hover {

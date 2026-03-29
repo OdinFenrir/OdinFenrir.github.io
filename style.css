@@ -922,6 +922,10 @@ input, textarea {
     grid-template-columns: 1fr;
     gap: 48px;
   }
+
+  .hero-scroll {
+    display: none;
+  }
 }
 
 @media (max-width: 640px) {
@@ -958,10 +962,6 @@ input, textarea {
 
   .hero-content {
     padding-top: 100px;
-  }
-
-  .hero-scroll {
-    display: none;
   }
 
   .about-stats {

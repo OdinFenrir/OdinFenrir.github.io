@@ -120,13 +120,13 @@ A social reading platform for sharing book recommendations and discussion thread
 
 ---
 
-## GitHub Stats
+## GitHub
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=OdinFenrir&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OdinFenrir&layout=compact&theme=tokyonight&hide_border=true)
+![Public Repos](https://img.shields.io/badge/Public_Repos-6-blue?style=for-the-badge&logo=github)
+![Followers](https://img.shields.io/badge/Followers-0-blue?style=for-the-badge&logo=github)
+![Following](https://img.shields.io/badge/Following-0-blue?style=for-the-badge&logo=github)
 
 </div>
 

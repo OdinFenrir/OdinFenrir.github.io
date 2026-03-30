@@ -1241,8 +1241,19 @@ input, textarea {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  object-position: center;
   background: color-mix(in srgb, var(--surface) 92%, #000 8%);
   display: block;
+}
+
+.project-image-zoom-center {
+  object-fit: cover;
+  object-position: center;
+}
+
+.project-image-left-focus {
+  object-fit: cover;
+  object-position: left center;
 }
 
 .project-card:hover .project-visual {

@@ -163,7 +163,7 @@ This repository is the portfolio build started ahead of the course and will beco
 <td width="50%">
 
 ### Mini RL Survival
-Completed personal reinforcement-learning lab with Q-learning, telemetry export, and level completion training.
+Working reinforcement-learning lab with Q-learning, telemetry export, and level completion training.
 
 `Python` `Pygame` `Q-learning` `NumPy`
 
@@ -171,7 +171,7 @@ Completed personal reinforcement-learning lab with Q-learning, telemetry export,
 <td width="50%">
 
 ### Snake RL Research Lab
-In-progress personal RL project with PPO experiments, dashboard controls, and reproducible reporting.
+Working personal RL project with PPO experiments, dashboard controls, and reproducible reporting.
 
 `Python` `stable-baselines3` `PPO` `Gym`
 
@@ -181,7 +181,7 @@ In-progress personal RL project with PPO experiments, dashboard controls, and re
 <td width="50%">
 
 ### Evolving Life (C++ / SFML)
-Game-of-Life-based ecology exploration with trait mutation, nutrient diffusion, and live zoom/pan controls.
+Working Game-of-Life-based ecology exploration with trait mutation, nutrient diffusion, and live zoom/pan controls.
 
 `C++17` `SFML` `CMake` `vcpkg`
 
@@ -189,7 +189,7 @@ Game-of-Life-based ecology exploration with trait mutation, nutrient diffusion, 
 <td width="50%">
 
 ### AntiSlack App
-Local productivity tracker with AI coaching, desktop UI + CLI, SQLite state, and Python runtime guards.
+Working local productivity tracker with AI coaching, desktop UI + CLI, SQLite state, and Python runtime guards.
 
 `C#` `.NET 8` `Python` `SQLite` `WebView2` `LLM Ops`
 

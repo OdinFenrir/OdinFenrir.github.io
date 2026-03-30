@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-30T02:53:58.522Z",
+  "generatedAt": "2026-03-30T05:03:19.091Z",
   "counts": {
-    "completed": 3,
-    "in-progress": 2,
+    "in-development": 4,
+    "completed": 0,
+    "in-progress": 1,
     "planned": 4,
     "backlog": 0
   },
@@ -39,28 +40,28 @@
       "description": "Second practical build before final portfolio delivery."
     },
     {
-      "name": "Personal Project — Snake RL Research Lab",
-      "status": "in-progress",
-      "category": "personal",
-      "description": "PPO + controller arbitration lab with reproducible artifact pipelines and live training dashboard."
-    },
-    {
       "name": "Personal Project — AntiSlack App",
-      "status": "completed",
+      "status": "in-development",
       "category": "personal",
       "description": ".NET desktop + CLI productivity tracker with Python AI coach, SQLite storage, multi-model LLM workflows, and PowerShell/CI gates."
     },
     {
       "name": "Personal Project — Evolving Life",
-      "status": "completed",
+      "status": "in-development",
       "category": "personal",
       "description": "Independent C++/SFML simulation focused on trait mutation and nutrient ecology."
     },
     {
       "name": "Personal Project — Mini RL Survival",
-      "status": "completed",
+      "status": "in-development",
       "category": "personal",
       "description": "Q-learning maze environment with curriculum controls, telemetry, and batch evaluation exports."
+    },
+    {
+      "name": "Personal Project — Snake RL Research Lab",
+      "status": "in-development",
+      "category": "personal",
+      "description": "PPO + controller arbitration lab with reproducible artifact pipelines and live training dashboard."
     }
   ]
 }

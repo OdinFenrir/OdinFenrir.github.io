@@ -1039,7 +1039,8 @@ input, textarea {
   letter-spacing: 0.04em;
 }
 
-.badge.completed {
+.badge.completed,
+.badge.in-development {
   background: rgba(16, 185, 129, 0.15);
   color: #34d399;
   border: 1px solid rgba(16, 185, 129, 0.35);
@@ -1239,7 +1240,8 @@ input, textarea {
 .project-visual img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  background: color-mix(in srgb, var(--surface) 92%, #000 8%);
   display: block;
 }
 
@@ -1359,7 +1361,8 @@ input, textarea {
   border-color: rgba(59, 130, 246, 0.3);
 }
 
-.project-status.completed {
+.project-status.completed,
+.project-status.in-development {
   color: #34d399;
   background: rgba(16, 185, 129, 0.14);
   border-color: rgba(16, 185, 129, 0.3);

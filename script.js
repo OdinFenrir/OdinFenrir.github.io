@@ -202,6 +202,13 @@
 
           listNode.innerHTML = '';
           let lastCategory = '';
+          const statusLabels = {
+            'in-development': 'In Development',
+            'in-progress': 'In Progress',
+            planned: 'Planned',
+            completed: 'Completed',
+            backlog: 'Backlog'
+          };
 
           data.projects.forEach(function (project) {
             const categoryKey = project.category || 'course';
@@ -216,7 +223,7 @@
             const card = document.createElement('article');
             card.className = 'dashboard-project-card';
             const statusKey = project.status || 'planned';
-            const statusText = statusKey.replace('-', ' ');
+            const statusText = statusLabels[statusKey] || statusKey.replace(/-/g, ' ');
             card.innerHTML = `
               <h4>${project.name}</h4>
               <p>${project.description || ''}</p>

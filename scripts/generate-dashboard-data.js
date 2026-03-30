@@ -8,6 +8,7 @@ const dashboardPath = path.join(dataDir, 'dashboard.json');
 const projects = JSON.parse(fs.readFileSync(projectsPath, 'utf8'));
 
 const statusMap = {
+  'in-development': 'In Development',
   completed: 'Completed',
   'in-progress': 'In Progress',
   planned: 'Planned',
@@ -15,6 +16,7 @@ const statusMap = {
 };
 
 const counts = {
+  'in-development': 0,
   completed: 0,
   'in-progress': 0,
   planned: 0,
@@ -32,6 +34,7 @@ const categoryOrder = {
 };
 
 const statusOrder = {
+  'in-development': 0,
   'in-progress': 0,
   planned: 1,
   completed: 2,

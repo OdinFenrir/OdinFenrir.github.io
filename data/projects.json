@@ -31,25 +31,25 @@
   },
   {
     "name": "Personal Project — Mini RL Survival",
-    "status": "completed",
+    "status": "in-development",
     "category": "personal",
     "description": "Q-learning maze environment with curriculum controls, telemetry, and batch evaluation exports."
   },
   {
     "name": "Personal Project — Snake RL Research Lab",
-    "status": "in-progress",
+    "status": "in-development",
     "category": "personal",
     "description": "PPO + controller arbitration lab with reproducible artifact pipelines and live training dashboard."
   },
   {
     "name": "Personal Project — AntiSlack App",
-    "status": "completed",
+    "status": "in-development",
     "category": "personal",
     "description": ".NET desktop + CLI productivity tracker with Python AI coach, SQLite storage, multi-model LLM workflows, and PowerShell/CI gates."
   },
   {
     "name": "Personal Project — Evolving Life",
-    "status": "completed",
+    "status": "in-development",
     "category": "personal",
     "description": "Independent C++/SFML simulation focused on trait mutation and nutrient ecology."
   }

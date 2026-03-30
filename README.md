@@ -92,6 +92,7 @@ projects I am already using to build practical experience.
 <td valign="top" width="33%">
 
 ### Workflow
+- Codex CLI / IDE
 - PowerShell Automation
 - CI / GitHub Actions
 - Pytest + Refactor Gates

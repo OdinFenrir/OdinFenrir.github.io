@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-03-30T01:26:18.599Z",
+  "counts": {
+    "completed": 1,
+    "in-progress": 1,
+    "planned": 2,
+    "backlog": 0
+  },
+  "totalProjects": 4,
+  "projects": [
+    {
+      "name": "Personal Project — Evolving Life",
+      "status": "completed",
+      "category": "personal",
+      "description": "Independent C++/SFML simulation focused on trait mutation and nutrient ecology."
+    },
+    {
+      "name": "Course Project — Internal Exam Preparation Build",
+      "status": "in-progress",
+      "category": "course",
+      "description": "Full-stack exam prep covering front-end, back-end, and database readiness."
+    },
+    {
+      "name": "Course Project — Practical Project 1",
+      "status": "planned",
+      "category": "course",
+      "description": "First practical build to demonstrate APIs, data flow, and UI polish."
+    },
+    {
+      "name": "Course Project — Practical Project 2",
+      "status": "planned",
+      "category": "course",
+      "description": "Second practical build before final portfolio delivery."
+    }
+  ]
+}

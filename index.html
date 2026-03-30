@@ -240,18 +240,22 @@
       <h2 class="section-title reveal">Track what is done and what is next.</h2>
 
       <div class="dashboard-stats reveal">
-        <div class="dash-stat">
+        <div class="dash-stat" data-stat="completed">
           <span class="dash-stat-number">1</span>
           <span class="dash-stat-label">Completed</span>
         </div>
-        <div class="dash-stat">
+        <div class="dash-stat" data-stat="in-progress">
           <span class="dash-stat-number">1</span>
           <span class="dash-stat-label">In Progress</span>
         </div>
-        <div class="dash-stat">
+        <div class="dash-stat" data-stat="planned">
           <span class="dash-stat-number">2</span>
           <span class="dash-stat-label">Planned</span>
         </div>
+      </div>
+
+      <div class="dashboard-summary reveal">
+        Total tracked projects: <span id="dashboard-total">0</span>
       </div>
 
       <div class="dashboard-table reveal">

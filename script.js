@@ -177,4 +177,33 @@
       document.documentElement.style.setProperty('--hero-parallax-y', '0px');
     });
   }
+
+  // ==================== DASHBOARD DATA ====================
+  function refreshDashboardData() {
+    const stats = document.querySelectorAll('.dash-stat');
+    const totalNode = document.getElementById('dashboard-total');
+    fetch('data/dashboard.json?t=' + Date.now())
+      .then(function (response) {
+        if (!response.ok) throw new Error('dashboard fetch failed');
+        return response.json();
+      })
+      .then(function (data) {
+        stats.forEach(function (stat) {
+          const key = stat.getAttribute('data-stat');
+          const count = data.counts && key && data.counts[key] !== undefined ? data.counts[key] : 0;
+          const numberNode = stat.querySelector('.dash-stat-number');
+          if (numberNode) {
+            numberNode.textContent = String(count);
+          }
+        });
+        if (totalNode) {
+          totalNode.textContent = String(data.totalProjects || 0);
+        }
+      })
+      .catch(function () {
+        // keep defaults if fetch fails
+      });
+  }
+
+  refreshDashboardData();
 })();

@@ -804,6 +804,12 @@ input, textarea {
   margin-bottom: 18px;
 }
 
+.dashboard-summary {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
 .dash-stat {
   border: 1px solid var(--border);
   border-radius: var(--radius);

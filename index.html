@@ -160,39 +160,34 @@
       <h2 class="section-title reveal">Course skills map.</h2>
       <div class="skills-grid">
         <div class="skill-group reveal">
-          <h3>Introduction to Development</h3>
+          <h3>Core Languages</h3>
           <div class="skill-tags">
-            <span class="skill-tag">HTML</span>
-            <span class="skill-tag">CSS 3</span>
-            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">C++ / CMake</span>
             <span class="skill-tag">Python</span>
-          </div>
-        </div>
-        <div class="skill-group reveal">
-          <h3>Full-Stack Development</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">In depth HTML / CSS / JavaScript</span>
-            <span class="skill-tag">PHP</span>
-            <span class="skill-tag">jQuery</span>
             <span class="skill-tag">SQL</span>
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">React</span>
-            <span class="skill-tag">Bootstrap</span>
-            <span class="skill-tag">API</span>
-            <span class="skill-tag">Java</span>
-            <span class="skill-tag">GitHub</span>
-            <span class="skill-tag">C#</span>
+            <span class="skill-tag">Git / GitHub</span>
           </div>
         </div>
         <div class="skill-group reveal">
-          <h3>Professional Skills</h3>
+          <h3>Systems & Platforms</h3>
           <div class="skill-tags">
-            <span class="skill-tag">Problem Solving</span>
-            <span class="skill-tag">Project Planning</span>
+            <span class="skill-tag">SFML / Game Development</span>
+            <span class="skill-tag">Reinforcement Learning</span>
+            <span class="skill-tag">Pygame</span>
+            <span class="skill-tag">PPO / RL Algorithms</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Matplotlib</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Workflow & Ops</h3>
+          <div class="skill-tags">
             <span class="skill-tag">Debugging</span>
-            <span class="skill-tag">Version Control</span>
+            <span class="skill-tag">Performance Tuning</span>
             <span class="skill-tag">Documentation</span>
-            <span class="skill-tag">Communication</span>
+            <span class="skill-tag">Automation</span>
+            <span class="skill-tag">CI / GitHub Actions</span>
+            <span class="skill-tag">Testing & Validation</span>
           </div>
         </div>
       </div>
@@ -302,9 +297,9 @@
             <span class="project-number">01</span>
             <h3>Personal Project — Evolving Life</h3>
             <p>
-              A C++ simulation inspired by Conway's Game of Life with energy and nutrient
-              systems, trait mutation, and species competition. Built as an independent
-              personal project outside my course.
+              Independent C++/SFML work that layers prop-based mutation, nutrient diffusion,
+              and species competition on a Game of Life core. Real-time controls, zoom, and
+              data overlays let me explore simulation tuning and visual storytelling.
             </p>
             <div class="project-tags">
               <span>C++17</span><span>SFML</span><span>CMake</span><span>vcpkg</span>
@@ -324,21 +319,21 @@
           <div class="project-visual gradient-green"></div>
           <div class="project-info">
             <span class="project-number">02</span>
-            <h3>Course Project — Internal Exam Preparation Build</h3>
+            <h3>Course Project — Mini RL Survival</h3>
             <p>
-              A full-stack preparation project covering front-end logic, data handling,
-              and coding standards aligned with the internal exam objectives.
+              Tabular Q-learning agent navigating key/door maze packs with curriculum
+              controls, telemetry, and save/load workflows. The viewer UI tracks training
+              stats while CLI scripts batch evaluate maps to JSON/CSV.
             </p>
             <div class="project-tags">
-              <span>JavaScript</span><span>Python</span><span>SQL</span>
+              <span>Python</span><span>Pygame</span><span>Q-Learning</span><span>CLI tooling</span>
             </div>
             <div class="project-meta">
               <span class="project-status">In Progress</span>
               <span>Course Project</span>
             </div>
             <div class="project-links">
-              <a href="#" class="project-link">Case Study (coming soon) &nearr;</a>
-              <a href="#" class="project-link">Source Code (coming soon) &nearr;</a>
+              <a href="https://github.com/OdinFenrir/mini-rl-survival" class="project-link" target="_blank" rel="noopener noreferrer">Source Code &nearr;</a>
             </div>
           </div>
         </article>
@@ -348,21 +343,21 @@
           <div class="project-visual gradient-purple"></div>
           <div class="project-info">
             <span class="project-number">03</span>
-            <h3>Course Project — Practical Project 1</h3>
+            <h3>Course Project — Snake RL Research Lab</h3>
             <p>
-              First practical application project designed to solve a real scenario
-              using APIs, data flow, and interactive front-end components.
+              PPO + controller arbitration experiments in a Snake RL dashboard. Includes
+              worst-seed gating, live UI training controls, and artifact/report generators
+              for reproducibility.
             </p>
             <div class="project-tags">
-              <span>React</span><span>API</span><span>GitHub</span>
+              <span>Python</span><span>stable-baselines3</span><span>Reinforcement Learning</span>
             </div>
             <div class="project-meta">
               <span class="project-status">Planned</span>
               <span>Course Project</span>
             </div>
             <div class="project-links">
-              <a href="#" class="project-link">Case Study (coming soon) &nearr;</a>
-              <a href="#" class="project-link">Source Code (coming soon) &nearr;</a>
+              <a href="https://github.com/OdinFenrir/snake-rl-research-lab" class="project-link" target="_blank" rel="noopener noreferrer">Source Code &nearr;</a>
             </div>
           </div>
         </article>
@@ -372,21 +367,20 @@
           <div class="project-visual gradient-amber"></div>
           <div class="project-info">
             <span class="project-number">04</span>
-            <h3>Course Project — Practical Project 2</h3>
+            <h3>Personal Project — Portfolio Website</h3>
             <p>
-              Second practical project expanding full-stack capability with stronger
-              back-end structure, database integration, and deployment-ready workflow.
+              This live site documents every course milestone, automation, and showcase.
+              Uses CSS custom properties, IntersectionObserver reveals, and a Node workflow to auto-sync the dashboard.
             </p>
             <div class="project-tags">
-              <span>PHP</span><span>SQL</span><span>Bootstrap</span><span>JavaScript</span>
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span>
             </div>
             <div class="project-meta">
-              <span class="project-status">Planned</span>
-              <span>Course Project</span>
+              <span class="project-status">In Progress</span>
+              <span>Personal & Course</span>
             </div>
             <div class="project-links">
-              <a href="#" class="project-link">Case Study (coming soon) &nearr;</a>
-              <a href="#" class="project-link">Source Code (coming soon) &nearr;</a>
+              <a href="https://github.com/OdinFenrir/OdinFenrir.github.io" class="project-link" target="_blank" rel="noopener noreferrer">Source Code &nearr;</a>
             </div>
           </div>
         </article>

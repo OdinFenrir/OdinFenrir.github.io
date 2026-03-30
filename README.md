@@ -85,36 +85,36 @@ I enjoy working at the intersection of engineering and design — where performa
 <tr>
 <td width="50%">
 
-### StreamFlow
-A collaborative document editor built with real-time sync using WebSockets.
+### Evolving Life (C++ / SFML)
+Game-of-Life-based ecology exploration with trait mutation, nutrient diffusion, and live zoom/pan controls.
 
-`React` `Node.js` `WebSocket` `PostgreSQL`
+`C++17` `SFML` `CMake` `vcpkg`
 
 </td>
 <td width="50%">
 
-### TaskForge
-A project management dashboard with sprint planning and task tracking.
+### Mini RL Survival
+Tabular Q-learning curriculum navigating key/door mazes with CLI training, telemetry exports, and a Pygame viewer.
 
-`Next.js` `Python` `PostgreSQL`
+`Python` `Pygame` `Q-learning` `NumPy`
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### PixelCraft
-A web-based image optimization tool built to reduce file size while maintaining quality.
+### Snake RL Research Lab
+PPO + controller arbitration experiments for Snake with live UI, worst-seed gating, and report tooling for reproducibility.
 
-`JavaScript` `WebAssembly` `AWS`
+`Python` `stable-baselines3` `PPO` `Gym`
 
 </td>
 <td width="50%">
 
-### EchoReads
-A social reading platform for sharing book recommendations and discussion threads.
+### Portfolio / Dashboard
+This repository—live site—shows course progress, automation, and project data synced via GitHub Actions.
 
-`React` `GraphQL` `Node.js` `PostgreSQL`
+`HTML` `CSS` `JavaScript` `Node.js`
 
 </td>
 </tr>

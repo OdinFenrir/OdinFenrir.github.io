@@ -1254,8 +1254,8 @@ input, textarea {
 
 .project-image-left-focus {
   object-fit: cover;
-  object-position: left center;
-  transform: scale(1.32);
+  object-position: 8% center;
+  transform: scale(1.5);
 }
 
 .project-card:hover .project-visual {

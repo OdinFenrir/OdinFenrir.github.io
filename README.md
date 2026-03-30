@@ -27,10 +27,8 @@
 
 ## About Me
 
-I am building this full-stack portfolio proactively.
-The goal is to keep a clear separation between:
-- planned course programme milestones, and
-- self-work projects I use to build skills in advance.
+This portfolio presents the skills I am developing through my course and self-taught
+project work.
 
 ---
 
@@ -57,7 +55,7 @@ The goal is to keep a clear separation between:
 
 ---
 
-## Current Skills from Personal Projects
+## Current Skills from Self-Taught Projects
 
 <table>
 <tr>
@@ -156,7 +154,7 @@ This repository is the proactive portfolio build that will become the final cour
 </tr>
 </table>
 
-## Personal Development Projects
+## Self-Taught Projects
 
 <table>
 <tr>

@@ -207,7 +207,7 @@
         if (listNode && Array.isArray(data.projects)) {
           const categoryLabels = {
             course: 'Course Work',
-            personal: 'Personal Development Projects'
+            personal: 'Self-Taught Projects'
           };
 
           listNode.innerHTML = '';

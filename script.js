@@ -182,6 +182,8 @@
   function refreshDashboardData() {
     const stats = document.querySelectorAll('.dash-stat');
     const totalNode = document.getElementById('dashboard-total');
+    const listNode = document.getElementById('dashboard-projects');
+    const generatedNode = document.getElementById('dashboard-generated');
     fetch('data/dashboard.json?t=' + Date.now())
       .then(function (response) {
         if (!response.ok) throw new Error('dashboard fetch failed');
@@ -198,6 +200,23 @@
         });
         if (totalNode) {
           totalNode.textContent = String(data.totalProjects || 0);
+        }
+        if (generatedNode && data.generatedAt) {
+          generatedNode.textContent = new Date(data.generatedAt).toLocaleString();
+        }
+        if (listNode && Array.isArray(data.projects)) {
+          listNode.innerHTML = '';
+          data.projects.forEach(function (project) {
+            const card = document.createElement('article');
+            card.className = 'dashboard-project-card';
+            const statusText = project.status ? project.status.replace('-', ' ') : 'Planned';
+            card.innerHTML = `
+              <h4>${project.name}</h4>
+              <p>${project.description || ''}</p>
+              <span class="badge ${project.category || 'course'}">${statusText}</span>
+            `;
+            listNode.appendChild(card);
+          });
         }
       })
       .catch(function () {

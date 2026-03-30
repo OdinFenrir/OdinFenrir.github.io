@@ -147,6 +147,28 @@ A social reading platform for sharing book recommendations and discussion thread
 | Typography | Space Grotesk headings, Inter body, fluid `clamp()` sizing |
 | Responsive | 3 breakpoints with mobile hamburger menu |
 | Accessibility | ARIA labels, semantic HTML, focus states |
+| Security | Content-Security-Policy + CSP headers |
+
+### Programme Outline
+
+#### Introduction to Development
+- <img src="https://skillicons.dev/icons?i=html" width="18" height="18" alt="HTML"> HTML  
+- <img src="https://skillicons.dev/icons?i=css" width="18" height="18" alt="CSS"> CSS 3  
+- <img src="https://skillicons.dev/icons?i=js" width="18" height="18" alt="JavaScript"> JavaScript  
+- <img src="https://skillicons.dev/icons?i=py" width="18" height="18" alt="Python"> Python  
+
+#### Full-Stack Development
+- <img src="https://skillicons.dev/icons?i=html" width="18" height="18" alt="HTML"> In depth HTML / CSS / JavaScript  
+- <img src="https://skillicons.dev/icons?i=php" width="18" height="18" alt="PHP"> PHP  
+- <img src="https://skillicons.dev/icons?i=jquery" width="18" height="18" alt="jQuery"> jQuery  
+- <img src="https://skillicons.dev/icons?i=mysql" width="18" height="18" alt="SQL"> SQL  
+- <img src="https://skillicons.dev/icons?i=py" width="18" height="18" alt="Python"> Python  
+- <img src="https://skillicons.dev/icons?i=react" width="18" height="18" alt="React"> React  
+- <img src="https://skillicons.dev/icons?i=bootstrap" width="18" height="18" alt="Bootstrap"> Bootstrap  
+- <img src="https://skillicons.dev/icons?i=postman" width="18" height="18" alt="API"> API  
+- <img src="https://skillicons.dev/icons?i=java" width="18" height="18" alt="Java"> Java  
+- <img src="https://skillicons.dev/icons?i=github" width="18" height="18" alt="GitHub"> GitHub  
+- <img src="https://skillicons.dev/icons?i=cs" width="18" height="18" alt="C#"> C#  
 
 ### Quick Start
 

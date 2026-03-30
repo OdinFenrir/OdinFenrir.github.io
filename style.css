@@ -577,6 +577,16 @@ input, textarea {
 .programme-list li {
   color: var(--text-secondary);
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.programme-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  flex: 0 0 18px;
 }
 
 .programme-list.two-col {
@@ -593,6 +603,20 @@ input, textarea {
 }
 
 .about-image {
+}
+
+.about-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  transition: border-color 0.3s, transform 0.3s var(--ease);
+}
+
+.about-photo:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
 }
 
 .avatar-placeholder {

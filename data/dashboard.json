@@ -1,19 +1,13 @@
 {
-  "generatedAt": "2026-03-30T02:42:05.895Z",
+  "generatedAt": "2026-03-30T02:47:54.355Z",
   "counts": {
-    "completed": 2,
-    "in-progress": 3,
+    "completed": 3,
+    "in-progress": 2,
     "planned": 2,
     "backlog": 0
   },
   "totalProjects": 7,
   "projects": [
-    {
-      "name": "Course Project — Mini RL Survival",
-      "status": "in-progress",
-      "category": "course",
-      "description": "Q-learning maze environment with curriculum controls, telemetry, and batch evaluation exports."
-    },
     {
       "name": "Course Project — Snake RL Research Lab",
       "status": "in-progress",
@@ -31,6 +25,12 @@
       "status": "planned",
       "category": "course",
       "description": "Second practical build before final portfolio delivery."
+    },
+    {
+      "name": "Course Project — Mini RL Survival",
+      "status": "completed",
+      "category": "course",
+      "description": "Q-learning maze environment with curriculum controls, telemetry, and batch evaluation exports."
     },
     {
       "name": "Personal Project — Portfolio Website",

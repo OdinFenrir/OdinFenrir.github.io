@@ -225,11 +225,12 @@
 
             const card = document.createElement('article');
             card.className = 'dashboard-project-card';
-            const statusText = project.status ? project.status.replace('-', ' ') : 'Planned';
+            const statusKey = project.status || 'planned';
+            const statusText = statusKey.replace('-', ' ');
             card.innerHTML = `
               <h4>${project.name}</h4>
               <p>${project.description || ''}</p>
-              <span class="badge ${project.category || 'course'}">${statusText}</span>
+              <span class="badge ${statusKey}">${statusText}</span>
             `;
             listNode.appendChild(card);
           });

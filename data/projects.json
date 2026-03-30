@@ -1,7 +1,7 @@
 [
   {
     "name": "Course Project — Mini RL Survival",
-    "status": "in-progress",
+    "status": "completed",
     "category": "course",
     "description": "Q-learning maze environment with curriculum controls, telemetry, and batch evaluation exports."
   },

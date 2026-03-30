@@ -115,16 +115,6 @@
     });
   }
 
-  // ==================== FORM ====================
-  const form = document.getElementById('contact-form');
-
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      alert('Form not connected yet.');
-    });
-  }
-
   // ==================== EMAIL OBFUSCATION ====================
   const emailLink = document.getElementById('email-link');
   if (emailLink) {

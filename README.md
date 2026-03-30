@@ -27,10 +27,10 @@
 
 ## About Me
 
-I am starting a full-stack traineeship this month and building this portfolio proactively.
+I am building this full-stack portfolio proactively.
 The goal is to keep a clear separation between:
 - planned course programme milestones, and
-- personal projects I use to build skills in advance.
+- self-work projects I use to build skills in advance.
 
 ---
 

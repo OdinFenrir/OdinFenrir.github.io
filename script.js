@@ -62,6 +62,8 @@
   const navLinks = document.getElementById('nav-links');
 
   if (hamburger && navLinks) {
+    hamburger.setAttribute('aria-expanded', 'false');
+
     hamburger.addEventListener('click', function () {
       const isOpen = navLinks.classList.toggle('open');
       hamburger.classList.toggle('active');
@@ -76,6 +78,15 @@
         document.body.style.overflow = '';
         hamburger.setAttribute('aria-expanded', false);
       });
+    });
+
+    window.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && navLinks.classList.contains('open')) {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('active');
+        document.body.style.overflow = '';
+        hamburger.setAttribute('aria-expanded', 'false');
+      }
     });
   }
 
@@ -111,6 +122,47 @@
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       alert('Form not connected yet.');
+    });
+  }
+
+  // ==================== FOOTER YEAR ====================
+  const yearNode = document.getElementById('current-year');
+  if (yearNode) {
+    yearNode.textContent = String(new Date().getFullYear());
+  }
+
+  // ==================== HERO PARALLAX ====================
+  const hero = document.getElementById('hero');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const canUseParallax = hero && !reduceMotion && window.matchMedia('(pointer: fine)').matches;
+
+  if (canUseParallax) {
+    let rafId = null;
+
+    function updateHeroParallax(event) {
+      if (!hero) return;
+      const rect = hero.getBoundingClientRect();
+      const relativeX = (event.clientX - rect.left) / rect.width - 0.5;
+      const relativeY = (event.clientY - rect.top) / rect.height - 0.5;
+      const maxOffset = 18;
+      const x = Math.max(-maxOffset, Math.min(maxOffset, relativeX * maxOffset * 2));
+      const y = Math.max(-maxOffset, Math.min(maxOffset, relativeY * maxOffset * 2));
+
+      document.documentElement.style.setProperty('--hero-parallax-x', x.toFixed(1) + 'px');
+      document.documentElement.style.setProperty('--hero-parallax-y', y.toFixed(1) + 'px');
+      rafId = null;
+    }
+
+    hero.addEventListener('mousemove', function (event) {
+      if (rafId !== null) return;
+      rafId = window.requestAnimationFrame(function () {
+        updateHeroParallax(event);
+      });
+    });
+
+    hero.addEventListener('mouseleave', function () {
+      document.documentElement.style.setProperty('--hero-parallax-x', '0px');
+      document.documentElement.style.setProperty('--hero-parallax-y', '0px');
     });
   }
 })();

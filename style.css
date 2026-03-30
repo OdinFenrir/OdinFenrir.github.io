@@ -1249,7 +1249,7 @@ input, textarea {
 .project-image-zoom-center {
   object-fit: cover;
   object-position: center;
-  transform: scale(1.45);
+  transform: scale(1.6);
 }
 
 .project-image-left-focus {

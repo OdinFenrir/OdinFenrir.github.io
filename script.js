@@ -125,6 +125,18 @@
     });
   }
 
+  // ==================== EMAIL OBFUSCATION ====================
+  const emailLink = document.getElementById('email-link');
+  if (emailLink) {
+    const user = emailLink.getAttribute('data-user');
+    const domain = emailLink.getAttribute('data-domain');
+    if (user && domain) {
+      const address = user + '@' + domain;
+      emailLink.href = 'mailto:' + address;
+      emailLink.textContent = address;
+    }
+  }
+
   // ==================== FOOTER YEAR ====================
   const yearNode = document.getElementById('current-year');
   if (yearNode) {

@@ -1249,11 +1249,13 @@ input, textarea {
 .project-image-zoom-center {
   object-fit: cover;
   object-position: center;
+  transform: scale(1.45);
 }
 
 .project-image-left-focus {
   object-fit: cover;
   object-position: left center;
+  transform: scale(1.32);
 }
 
 .project-card:hover .project-visual {

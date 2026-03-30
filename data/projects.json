@@ -1,17 +1,5 @@
 [
   {
-    "name": "Personal Project — Evolving Life",
-    "status": "completed",
-    "category": "personal",
-    "description": "Independent C++/SFML simulation focused on trait mutation and nutrient ecology."
-  },
-  {
-    "name": "Personal Project — AntiSlack App",
-    "status": "completed",
-    "category": "personal",
-    "description": ".NET desktop + CLI productivity tracker with Python AI coach, SQLite storage, multi-model LLM workflows, and PowerShell/CI gates."
-  },
-  {
     "name": "Course Project — Mini RL Survival",
     "status": "in-progress",
     "category": "course",
@@ -40,5 +28,17 @@
     "status": "in-progress",
     "category": "personal",
     "description": "Public portfolio site with project dashboard automation and course progress tracking."
+  },
+  {
+    "name": "Personal Project — AntiSlack App",
+    "status": "completed",
+    "category": "personal",
+    "description": ".NET desktop + CLI productivity tracker with Python AI coach, SQLite storage, multi-model LLM workflows, and PowerShell/CI gates."
+  },
+  {
+    "name": "Personal Project — Evolving Life",
+    "status": "completed",
+    "category": "personal",
+    "description": "Independent C++/SFML simulation focused on trait mutation and nutrient ecology."
   }
 ]

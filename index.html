@@ -245,7 +245,7 @@
   <section class="section dashboard" id="dashboard">
     <div class="container">
       <p class="section-label reveal">Project Dashboard</p>
-      <h2 class="section-title reveal">Track what is done and what is next (synced with the project board).</h2>
+      <h2 class="section-title reveal">Track what is done and what is next (synced from tracked project data).</h2>
 
       <div class="dashboard-stats reveal">
         <div class="dash-stat" data-stat="completed">
@@ -275,40 +275,16 @@
   <section class="section projects" id="projects">
     <div class="container">
       <p class="section-label reveal">Projects</p>
-      <h2 class="section-title reveal">Course and personal project evidence.</h2>
+      <h2 class="section-title reveal">Project evidence by track.</h2>
       <div class="projects-list">
 
-        <!-- Project 1 -->
-        <article class="project-card reveal">
-          <div class="project-visual">
-            <img src="assets/gameoflife.png" alt="Evolving Life simulation screenshot" loading="lazy">
-          </div>
-          <div class="project-info">
-            <span class="project-number">01</span>
-            <h3>Personal Project — Evolving Life</h3>
-            <p>
-              Independent C++/SFML work that layers prop-based mutation, nutrient diffusion,
-              and species competition on a Game of Life core. Real-time controls, zoom, and
-              data overlays let me explore simulation tuning and visual storytelling.
-            </p>
-            <div class="project-tags">
-              <span>C++17</span><span>SFML</span><span>CMake</span><span>vcpkg</span>
-            </div>
-            <div class="project-meta">
-              <span class="project-status">Personal Project</span>
-              <span>Independent Build</span>
-            </div>
-            <div class="project-links">
-              <a href="https://github.com/OdinFenrir/GameofLife" class="project-link" target="_blank" rel="noopener noreferrer">Source Code &nearr;</a>
-            </div>
-          </div>
-        </article>
+        <h3 class="projects-subheading reveal">Course Work</h3>
 
-        <!-- Project 2 -->
+        <!-- Course Project 1 -->
         <article class="project-card reverse reveal">
           <div class="project-visual gradient-green"></div>
           <div class="project-info">
-            <span class="project-number">02</span>
+            <span class="project-number">C1</span>
             <h3>Course Project — Mini RL Survival</h3>
             <p>
               Tabular Q-learning agent navigating key/door maze packs with curriculum
@@ -328,11 +304,11 @@
           </div>
         </article>
 
-        <!-- Project 3 -->
+        <!-- Course Project 2 -->
         <article class="project-card reveal">
           <div class="project-visual gradient-purple"></div>
           <div class="project-info">
-            <span class="project-number">03</span>
+            <span class="project-number">C2</span>
             <h3>Course Project — Snake RL Research Lab</h3>
             <p>
               PPO + controller arbitration experiments in a Snake RL dashboard. Includes
@@ -352,13 +328,87 @@
           </div>
         </article>
 
-        <!-- Project 4 -->
+        <!-- Course Project 3 -->
+        <article class="project-card reverse reveal">
+          <div class="project-visual gradient-blue"></div>
+          <div class="project-info">
+            <span class="project-number">C3</span>
+            <h3>Course Project — Practical Project 1</h3>
+            <p>
+              Planned course practical: first full implementation project to validate
+              front-end, API, and persistence fundamentals in one deliverable.
+            </p>
+            <div class="project-tags">
+              <span>Planned</span><span>Course Milestone</span>
+            </div>
+            <div class="project-meta">
+              <span class="project-status">Planned</span>
+              <span>Course Project</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/OdinFenrir?tab=projects" class="project-link" target="_blank" rel="noopener noreferrer">Project Tracker &nearr;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Course Project 4 -->
+        <article class="project-card reveal">
+          <div class="project-visual gradient-amber"></div>
+          <div class="project-info">
+            <span class="project-number">C4</span>
+            <h3>Course Project — Practical Project 2</h3>
+            <p>
+              Planned course practical: follow-up build focused on stronger architecture,
+              testing flow, and evidence-ready documentation for final assessment.
+            </p>
+            <div class="project-tags">
+              <span>Planned</span><span>Course Milestone</span>
+            </div>
+            <div class="project-meta">
+              <span class="project-status">Planned</span>
+              <span>Course Project</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/OdinFenrir?tab=projects" class="project-link" target="_blank" rel="noopener noreferrer">Project Tracker &nearr;</a>
+            </div>
+          </div>
+        </article>
+
+        <h3 class="projects-subheading reveal">Personal Development Projects</h3>
+
+        <!-- Personal Project 1 -->
+        <article class="project-card reveal">
+          <div class="project-visual">
+            <img src="assets/gameoflife.png" alt="Evolving Life simulation screenshot" loading="lazy">
+          </div>
+          <div class="project-info">
+            <span class="project-number">P1</span>
+            <h3>Personal Project — Evolving Life</h3>
+            <p>
+              Independent C++/SFML work that layers prop-based mutation, nutrient diffusion,
+              and species competition on a Game of Life core. Real-time controls, zoom, and
+              data overlays let me explore simulation tuning and visual storytelling.
+            </p>
+            <div class="project-tags">
+              <span>C++17</span><span>SFML</span><span>CMake</span><span>vcpkg</span>
+            </div>
+            <div class="project-meta">
+              <span class="project-status">Personal Project</span>
+              <span>Independent Build</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/OdinFenrir/GameofLife" class="project-link" target="_blank" rel="noopener noreferrer">Source Code &nearr;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Personal Project 2 -->
         <article class="project-card reverse reveal">
           <div class="project-visual">
             <img src="assets/antislack.png" alt="AntiSlack desktop and AI coach interface screenshot" loading="lazy">
           </div>
           <div class="project-info">
-            <span class="project-number">04</span>
+            <span class="project-number">P2</span>
             <h3>Personal Project — AntiSlack App</h3>
             <p>
               Local productivity tracker with AI coaching built across .NET desktop + CLI and a Python coach runtime.
@@ -377,11 +427,11 @@
           </div>
         </article>
 
-        <!-- Project 5 -->
+        <!-- Personal Project 3 -->
         <article class="project-card reveal">
           <div class="project-visual gradient-amber"></div>
           <div class="project-info">
-            <span class="project-number">05</span>
+            <span class="project-number">P3</span>
             <h3>Personal Project — Portfolio Website</h3>
             <p>
               This live site documents every course milestone, automation, and showcase.

@@ -26,11 +26,39 @@ projects.forEach((project) => {
   counts[key] += 1;
 });
 
+const categoryOrder = {
+  course: 0,
+  personal: 1
+};
+
+const statusOrder = {
+  'in-progress': 0,
+  planned: 1,
+  completed: 2,
+  backlog: 3
+};
+
+const projectsSorted = [...projects].sort((a, b) => {
+  const categoryA = a.category in categoryOrder ? categoryOrder[a.category] : 99;
+  const categoryB = b.category in categoryOrder ? categoryOrder[b.category] : 99;
+  if (categoryA !== categoryB) {
+    return categoryA - categoryB;
+  }
+
+  const statusA = a.status in statusOrder ? statusOrder[a.status] : 99;
+  const statusB = b.status in statusOrder ? statusOrder[b.status] : 99;
+  if (statusA !== statusB) {
+    return statusA - statusB;
+  }
+
+  return (a.name || '').localeCompare(b.name || '');
+});
+
 const dashboard = {
   generatedAt: new Date().toISOString(),
   counts,
   totalProjects: projects.length,
-  projects
+  projects: projectsSorted
 };
 
 fs.writeFileSync(dashboardPath, JSON.stringify(dashboard, null, 2) + '\n');

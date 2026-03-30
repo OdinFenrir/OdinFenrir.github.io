@@ -81,7 +81,48 @@ I enjoy working at the intersection of engineering and design — where performa
 
 ---
 
-## Selected Projects
+## Course Project Track
+
+<table>
+<tr>
+<td width="50%">
+
+### Mini RL Survival
+Tabular Q-learning curriculum navigating key/door mazes with CLI training, telemetry exports, and a Pygame viewer.
+
+`Python` `Pygame` `Q-learning` `NumPy`
+
+</td>
+<td width="50%">
+
+### Snake RL Research Lab
+PPO + controller arbitration experiments for Snake with live UI, worst-seed gating, and report tooling for reproducibility.
+
+`Python` `stable-baselines3` `PPO` `Gym`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### Practical Project 1 (Planned)
+First course practical milestone for combining front-end, API, and persistence work into one assessed deliverable.
+
+`Course Milestone` `Planned`
+
+</td>
+<td width="50%">
+
+### Practical Project 2 (Planned)
+Second course practical milestone focused on architecture quality, testing flow, and portfolio-ready evidence.
+
+`Course Milestone` `Planned`
+
+</td>
+</tr>
+</table>
+
+## Personal Development Projects
 
 <table>
 <tr>
@@ -95,24 +136,6 @@ Game-of-Life-based ecology exploration with trait mutation, nutrient diffusion, 
 </td>
 <td width="50%">
 
-### Mini RL Survival
-Tabular Q-learning curriculum navigating key/door mazes with CLI training, telemetry exports, and a Pygame viewer.
-
-`Python` `Pygame` `Q-learning` `NumPy`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### Snake RL Research Lab
-PPO + controller arbitration experiments for Snake with live UI, worst-seed gating, and report tooling for reproducibility.
-
-`Python` `stable-baselines3` `PPO` `Gym`
-
-</td>
-<td width="50%">
-
 ### AntiSlack App
 Local productivity tracker with AI coaching, desktop UI + CLI, SQLite state, and Python runtime guards.
 
@@ -121,20 +144,12 @@ Local productivity tracker with AI coaching, desktop UI + CLI, SQLite state, and
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td colspan="2">
 
 ### Portfolio / Dashboard
 This repository shows course progress, automation, and project data synced via GitHub Actions.
 
 `HTML` `CSS` `JavaScript` `Node.js`
-
-</td>
-<td width="50%">
-
-### Practical Projects (Upcoming)
-Two planned course practicals currently tracked in the project dashboard, ready to replace with final deliverables.
-
-`Course Roadmap` `Project Tracking`
 
 </td>
 </tr>

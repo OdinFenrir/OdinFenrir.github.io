@@ -205,8 +205,24 @@
           generatedNode.textContent = new Date(data.generatedAt).toLocaleString();
         }
         if (listNode && Array.isArray(data.projects)) {
+          const categoryLabels = {
+            course: 'Course Work',
+            personal: 'Personal Development Projects'
+          };
+
           listNode.innerHTML = '';
+          let lastCategory = '';
+
           data.projects.forEach(function (project) {
+            const categoryKey = project.category || 'course';
+            if (categoryKey !== lastCategory) {
+              const heading = document.createElement('h3');
+              heading.className = 'dashboard-track-heading';
+              heading.textContent = categoryLabels[categoryKey] || 'Projects';
+              listNode.appendChild(heading);
+              lastCategory = categoryKey;
+            }
+
             const card = document.createElement('article');
             card.className = 'dashboard-project-card';
             const statusText = project.status ? project.status.replace('-', ' ') : 'Planned';

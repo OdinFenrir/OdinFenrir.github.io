@@ -1,33 +1,45 @@
 [
   {
-    "name": "Course Project — Mini RL Survival",
-    "status": "completed",
+    "name": "Course Milestone — Introduction to Development",
+    "status": "planned",
     "category": "course",
-    "description": "Q-learning maze environment with curriculum controls, telemetry, and batch evaluation exports."
+    "description": "Planned foundation stage with HTML, CSS, JavaScript, and Python."
   },
   {
-    "name": "Course Project — Snake RL Research Lab",
-    "status": "in-progress",
+    "name": "Course Milestone — Full-Stack + Internal Exam",
+    "status": "planned",
     "category": "course",
-    "description": "PPO + controller arbitration lab with reproducible artifact pipelines and live training dashboard."
+    "description": "Planned full-stack stage across front-end/back-end topics followed by internal assessment."
   },
   {
-    "name": "Course Project — Practical Project 1",
+    "name": "Course Milestone — Practical Project 1",
     "status": "planned",
     "category": "course",
     "description": "First practical build to demonstrate APIs, data flow, and UI polish."
   },
   {
-    "name": "Course Project — Practical Project 2",
+    "name": "Course Milestone — Practical Project 2",
     "status": "planned",
     "category": "course",
     "description": "Second practical build before final portfolio delivery."
   },
   {
-    "name": "Personal Project — Portfolio Website",
+    "name": "Course Milestone — Portfolio Website",
+    "status": "in-progress",
+    "category": "course",
+    "description": "Proactive portfolio build that will serve as final course evidence site."
+  },
+  {
+    "name": "Personal Project — Mini RL Survival",
+    "status": "completed",
+    "category": "personal",
+    "description": "Q-learning maze environment with curriculum controls, telemetry, and batch evaluation exports."
+  },
+  {
+    "name": "Personal Project — Snake RL Research Lab",
     "status": "in-progress",
     "category": "personal",
-    "description": "Public portfolio site with project dashboard automation and course progress tracking."
+    "description": "PPO + controller arbitration lab with reproducible artifact pipelines and live training dashboard."
   },
   {
     "name": "Personal Project — AntiSlack App",

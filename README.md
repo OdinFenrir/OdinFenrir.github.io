@@ -2,14 +2,13 @@
 
 # Leandro Domingues
 
-### Full-Stack Developer
+### Full-Stack Developer in Training
 
 [![Portfolio](https://img.shields.io/badge/LIVE_PORTFOLIO-odinfenrir.github.io-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://odinfenrir.github.io)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -28,24 +27,49 @@
 
 ## About Me
 
-I craft performant, accessible web applications with clean architecture and thoughtful design. Turning complex problems into elegant solutions.
-
-I enjoy working at the intersection of engineering and design — where performance meets pixel-perfect UI.
+I am starting a full-stack traineeship this month and building this portfolio proactively.
+The goal is to keep a clear separation between:
+- planned course programme milestones, and
+- personal projects I use to build skills in advance.
 
 ---
 
-## Skills
+## Course Programme (Planned)
+
+### Introduction to Development
+- HTML
+- CSS 3
+- JavaScript
+- Python
+
+### Full-Stack Development
+- In depth HTML / CSS / JavaScript
+- PHP
+- jQuery
+- SQL
+- Python
+- React
+- Bootstrap
+- API
+- Java
+- GitHub
+- C#
+
+---
+
+## Current Skills from Personal Projects
 
 <table>
 <tr>
 <td valign="top" width="33%">
 
-### Core Languages
+### Languages & Frameworks
 - C++ / CMake
 - C# / .NET
 - Python
+- JavaScript
 - SQL
-- Git / GitHub
+- RL toolchains (Q-learning, PPO)
 
 </td>
 <td valign="top" width="33%">
@@ -81,24 +105,24 @@ I enjoy working at the intersection of engineering and design — where performa
 
 ---
 
-## Course Project Track
+## Course Milestones (Planned + In Progress)
 
 <table>
 <tr>
 <td width="50%">
 
-### Mini RL Survival
-Tabular Q-learning curriculum navigating key/door mazes with CLI training, telemetry exports, and a Pygame viewer.
+### Introduction to Development (Planned)
+Foundation stage for HTML, CSS, JavaScript, and Python.
 
-`Python` `Pygame` `Q-learning` `NumPy`
+`Planned` `Course`
 
 </td>
 <td width="50%">
 
-### Snake RL Research Lab
-PPO + controller arbitration experiments for Snake with live UI, worst-seed gating, and report tooling for reproducibility.
+### Full-Stack + Internal Exam (Planned)
+Deeper full-stack phase followed by internal assessment.
 
-`Python` `stable-baselines3` `PPO` `Gym`
+`Planned` `Course`
 
 </td>
 </tr>
@@ -114,9 +138,19 @@ First course practical milestone for combining front-end, API, and persistence w
 <td width="50%">
 
 ### Practical Project 2 (Planned)
-Second course practical milestone focused on architecture quality, testing flow, and portfolio-ready evidence.
+Second assessed practical build before final portfolio hand-in.
 
 `Course Milestone` `Planned`
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+### Portfolio Website (In Progress)
+This repository is the proactive portfolio build that will become the final course showcase site.
+
+`In Progress` `Course Milestone`
 
 </td>
 </tr>
@@ -125,6 +159,24 @@ Second course practical milestone focused on architecture quality, testing flow,
 ## Personal Development Projects
 
 <table>
+<tr>
+<td width="50%">
+
+### Mini RL Survival
+Completed personal reinforcement-learning lab with Q-learning, telemetry export, and level completion training.
+
+`Python` `Pygame` `Q-learning` `NumPy`
+
+</td>
+<td width="50%">
+
+### Snake RL Research Lab
+In-progress personal RL project with PPO experiments, dashboard controls, and reproducible reporting.
+
+`Python` `stable-baselines3` `PPO` `Gym`
+
+</td>
+</tr>
 <tr>
 <td width="50%">
 
@@ -140,16 +192,6 @@ Game-of-Life-based ecology exploration with trait mutation, nutrient diffusion, 
 Local productivity tracker with AI coaching, desktop UI + CLI, SQLite state, and Python runtime guards.
 
 `C#` `.NET 8` `Python` `SQLite` `WebView2` `LLM Ops`
-
-</td>
-</tr>
-<tr>
-<td colspan="2">
-
-### Portfolio / Dashboard
-This repository shows course progress, automation, and project data synced via GitHub Actions.
-
-`HTML` `CSS` `JavaScript` `Node.js`
 
 </td>
 </tr>
@@ -171,7 +213,7 @@ This repository shows course progress, automation, and project data synced via G
 
 ## This Portfolio
 
-> A premium, production-ready personal portfolio built with **HTML**, **CSS**, and minimal **JavaScript**.
+> A proactive learning portfolio built with **HTML**, **CSS**, and minimal **JavaScript**.
 
 | Feature | Details |
 |---|---|
@@ -210,7 +252,7 @@ This repository shows course progress, automation, and project data synced via G
 ```bash
 git clone https://github.com/OdinFenrir/OdinFenrir.github.io.git
 cd OdinFenrir.github.io
-open index.html
+start index.html
 ```
 
 ---

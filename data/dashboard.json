@@ -1,42 +1,48 @@
 {
-  "generatedAt": "2026-03-30T02:47:54.355Z",
+  "generatedAt": "2026-03-30T02:53:58.522Z",
   "counts": {
     "completed": 3,
     "in-progress": 2,
-    "planned": 2,
+    "planned": 4,
     "backlog": 0
   },
-  "totalProjects": 7,
+  "totalProjects": 9,
   "projects": [
     {
-      "name": "Course Project — Snake RL Research Lab",
+      "name": "Course Milestone — Portfolio Website",
       "status": "in-progress",
       "category": "course",
-      "description": "PPO + controller arbitration lab with reproducible artifact pipelines and live training dashboard."
+      "description": "Proactive portfolio build that will serve as final course evidence site."
     },
     {
-      "name": "Course Project — Practical Project 1",
+      "name": "Course Milestone — Full-Stack + Internal Exam",
+      "status": "planned",
+      "category": "course",
+      "description": "Planned full-stack stage across front-end/back-end topics followed by internal assessment."
+    },
+    {
+      "name": "Course Milestone — Introduction to Development",
+      "status": "planned",
+      "category": "course",
+      "description": "Planned foundation stage with HTML, CSS, JavaScript, and Python."
+    },
+    {
+      "name": "Course Milestone — Practical Project 1",
       "status": "planned",
       "category": "course",
       "description": "First practical build to demonstrate APIs, data flow, and UI polish."
     },
     {
-      "name": "Course Project — Practical Project 2",
+      "name": "Course Milestone — Practical Project 2",
       "status": "planned",
       "category": "course",
       "description": "Second practical build before final portfolio delivery."
     },
     {
-      "name": "Course Project — Mini RL Survival",
-      "status": "completed",
-      "category": "course",
-      "description": "Q-learning maze environment with curriculum controls, telemetry, and batch evaluation exports."
-    },
-    {
-      "name": "Personal Project — Portfolio Website",
+      "name": "Personal Project — Snake RL Research Lab",
       "status": "in-progress",
       "category": "personal",
-      "description": "Public portfolio site with project dashboard automation and course progress tracking."
+      "description": "PPO + controller arbitration lab with reproducible artifact pipelines and live training dashboard."
     },
     {
       "name": "Personal Project — AntiSlack App",
@@ -49,6 +55,12 @@
       "status": "completed",
       "category": "personal",
       "description": "Independent C++/SFML simulation focused on trait mutation and nutrient ecology."
+    },
+    {
+      "name": "Personal Project — Mini RL Survival",
+      "status": "completed",
+      "category": "personal",
+      "description": "Q-learning maze environment with curriculum controls, telemetry, and batch evaluation exports."
     }
   ]
 }

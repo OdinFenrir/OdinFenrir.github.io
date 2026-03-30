@@ -10,11 +10,9 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OdinFenrir)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:LDomingues.uk@gmail.com)
 
 ---
@@ -29,6 +27,9 @@
 
 This portfolio presents the skills I am developing through my course and self-taught
 project work.
+
+It is structured to keep planned course work clearly separate from the independent
+projects I am already using to build practical experience.
 
 ---
 
@@ -197,21 +198,10 @@ Local productivity tracker with AI coaching, desktop UI + CLI, SQLite state, and
 
 ---
 
-## GitHub
-
-<div align="center">
-
-![Public Repos](https://img.shields.io/badge/Public_Repos-6-blue?style=for-the-badge&logo=github)
-![Followers](https://img.shields.io/badge/Followers-0-blue?style=for-the-badge&logo=github)
-![Following](https://img.shields.io/badge/Following-0-blue?style=for-the-badge&logo=github)
-
-</div>
-
----
-
 ## This Portfolio
 
-> A proactive learning portfolio built with **HTML**, **CSS**, and minimal **JavaScript**.
+> A portfolio website presenting planned course milestones alongside self-taught
+> project work.
 
 | Feature | Details |
 |---|---|
@@ -223,6 +213,7 @@ Local productivity tracker with AI coaching, desktop UI + CLI, SQLite state, and
 | Responsive | 3 breakpoints with mobile hamburger menu |
 | Accessibility | ARIA labels, semantic HTML, focus states |
 | Security | Content-Security-Policy + CSP headers |
+| Content Structure | Separate sections for course programme, course milestones, and self-taught projects |
 
 ### Programme Outline
 

@@ -2,7 +2,7 @@
 
 # Leandro Domingues
 
-### Full-Stack Developer in Training
+### Software Developer in Training
 
 [![Portfolio](https://img.shields.io/badge/LIVE_PORTFOLIO-odinfenrir.github.io-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://odinfenrir.github.io)
 
@@ -25,15 +25,15 @@
 
 ## About Me
 
-This portfolio presents the skills I am developing through my course and self-taught
-project work.
+This portfolio shows the skills I am building through self-taught projects and the
+course path I am preparing to complete.
 
 It is structured to keep planned course work clearly separate from the independent
 projects I am already using to build practical experience.
 
 ---
 
-## Course Programme (Planned)
+## Course Programme (Upcoming Topics)
 
 ### Introduction to Development
 - HTML
@@ -56,7 +56,7 @@ projects I am already using to build practical experience.
 
 ---
 
-## Current Skills from Self-Taught Projects
+## Current Skills in Self-Taught Projects
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ projects I am already using to build practical experience.
 </td>
 <td valign="top" width="33%">
 
-### Workflow & Ops
+### Workflow
 - PowerShell Automation
 - CI / GitHub Actions
 - Pytest + Refactor Gates
@@ -104,7 +104,7 @@ projects I am already using to build practical experience.
 
 ---
 
-## Course Milestones (Planned + In Progress)
+## Course Milestones (Current and Planned)
 
 <table>
 <tr>
@@ -147,7 +147,7 @@ Second assessed practical build before final portfolio hand-in.
 <td colspan="2">
 
 ### Portfolio Website (In Progress)
-This repository is the proactive portfolio build that will become the final course showcase site.
+This repository is the portfolio build started ahead of the course and will become the final course showcase site.
 
 `In Progress` `Course Milestone`
 

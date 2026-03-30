@@ -545,9 +545,10 @@ input, textarea {
 }
 
 .section-label {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 10px;
+  width: fit-content;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.15em;
@@ -572,14 +573,14 @@ input, textarea {
 
 .section-title {
   position: relative;
-  display: inline-block;
+  display: block;
   font-family: var(--font-heading);
   font-size: clamp(30px, 5vw, 48px);
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: -0.03em;
   margin-bottom: 18px;
-  max-width: 14ch;
+  max-width: 16ch;
 }
 
 .section-title::after {

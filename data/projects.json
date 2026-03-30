@@ -9,7 +9,7 @@
     "name": "Personal Project — AntiSlack App",
     "status": "completed",
     "category": "personal",
-    "description": ".NET desktop + CLI productivity tracker with Python AI coach, SQLite storage, and PowerShell/CI gates."
+    "description": ".NET desktop + CLI productivity tracker with Python AI coach, SQLite storage, multi-model LLM workflows, and PowerShell/CI gates."
   },
   {
     "name": "Course Project — Mini RL Survival",

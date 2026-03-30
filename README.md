@@ -55,7 +55,10 @@ I enjoy working at the intersection of engineering and design — where performa
 - WPF + WinForms
 - SQLite
 - WebView2
-- Ollama Integration
+- LLM Integration (Local + Hosted)
+- PyTorch
+- CUDA Inference
+- Model Quantization
 - Reinforcement Learning
 
 </td>
@@ -109,7 +112,7 @@ PPO + controller arbitration experiments for Snake with live UI, worst-seed gati
 ### AntiSlack App
 Local productivity tracker with AI coaching, desktop UI + CLI, SQLite state, and Python runtime guards.
 
-`C#` `.NET 8` `Python` `SQLite` `WebView2` `Ollama`
+`C#` `.NET 8` `Python` `SQLite` `WebView2` `LLM Ops`
 
 </td>
 </tr>

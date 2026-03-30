@@ -59,6 +59,10 @@ I enjoy working at the intersection of engineering and design — where performa
 - PyTorch
 - CUDA Inference
 - Model Quantization
+- RAG Fundamentals
+- Fine-tuning Basics
+- Memory Layers (JSON / SQL / Vector)
+- Embedding Mapping Basics
 - Reinforcement Learning
 
 </td>

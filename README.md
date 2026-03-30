@@ -255,6 +255,8 @@ cd OdinFenrir.github.io
 start index.html
 ```
 
+Prefer not to download? Open the live site: [odinfenrir.github.io](https://odinfenrir.github.io)
+
 ---
 
 <div align="center">

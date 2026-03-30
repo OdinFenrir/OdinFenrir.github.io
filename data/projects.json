@@ -6,10 +6,22 @@
     "description": "Independent C++/SFML simulation focused on trait mutation and nutrient ecology."
   },
   {
-    "name": "Course Project — Internal Exam Preparation Build",
+    "name": "Personal Project — AntiSlack App",
+    "status": "completed",
+    "category": "personal",
+    "description": ".NET desktop + CLI productivity tracker with Python AI coach, SQLite storage, and PowerShell/CI gates."
+  },
+  {
+    "name": "Course Project — Mini RL Survival",
     "status": "in-progress",
     "category": "course",
-    "description": "Full-stack exam prep covering front-end, back-end, and database readiness."
+    "description": "Q-learning maze environment with curriculum controls, telemetry, and batch evaluation exports."
+  },
+  {
+    "name": "Course Project — Snake RL Research Lab",
+    "status": "in-progress",
+    "category": "course",
+    "description": "PPO + controller arbitration lab with reproducible artifact pipelines and live training dashboard."
   },
   {
     "name": "Course Project — Practical Project 1",
@@ -22,5 +34,11 @@
     "status": "planned",
     "category": "course",
     "description": "Second practical build before final portfolio delivery."
+  },
+  {
+    "name": "Personal Project — Portfolio Website",
+    "status": "in-progress",
+    "category": "personal",
+    "description": "Public portfolio site with project dashboard automation and course progress tracking."
   }
 ]

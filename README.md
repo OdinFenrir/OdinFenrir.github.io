@@ -40,38 +40,33 @@ I enjoy working at the intersection of engineering and design — where performa
 <tr>
 <td valign="top" width="33%">
 
-### Frontend
-- HTML / CSS
-- JavaScript
-- TypeScript
-- React
-- Next.js
-- Tailwind CSS
-- Framer Motion
-
-</td>
-<td valign="top" width="33%">
-
-### Backend
-- Node.js
+### Core Languages
+- C++ / CMake
+- C# / .NET
 - Python
-- PostgreSQL
-- MongoDB
-- GraphQL
-- REST APIs
-- Redis
+- SQL
+- Git / GitHub
 
 </td>
 <td valign="top" width="33%">
 
-### Tools & Design
-- Git / GitHub
-- Docker
-- AWS
-- Figma
-- Vercel
-- CI / CD
-- Linux
+### Systems & Platforms
+- SFML / Game Development
+- WPF + WinForms
+- SQLite
+- WebView2
+- Ollama Integration
+- Reinforcement Learning
+
+</td>
+<td valign="top" width="33%">
+
+### Workflow & Ops
+- PowerShell Automation
+- CI / GitHub Actions
+- Pytest + Refactor Gates
+- Testing & Validation
+- Documentation
 
 </td>
 </tr>
@@ -111,10 +106,28 @@ PPO + controller arbitration experiments for Snake with live UI, worst-seed gati
 </td>
 <td width="50%">
 
+### AntiSlack App
+Local productivity tracker with AI coaching, desktop UI + CLI, SQLite state, and Python runtime guards.
+
+`C#` `.NET 8` `Python` `SQLite` `WebView2` `Ollama`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 ### Portfolio / Dashboard
-This repository—live site—shows course progress, automation, and project data synced via GitHub Actions.
+This repository shows course progress, automation, and project data synced via GitHub Actions.
 
 `HTML` `CSS` `JavaScript` `Node.js`
+
+</td>
+<td width="50%">
+
+### Practical Projects (Upcoming)
+Two planned course practicals currently tracked in the project dashboard, ready to replace with final deliverables.
+
+`Course Roadmap` `Project Tracking`
 
 </td>
 </tr>
